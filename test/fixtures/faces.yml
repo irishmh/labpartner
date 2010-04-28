@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  eye_color: MyString
+  hair_color: MyString
+  ears: 1
+
+two:
+  eye_color: MyString
+  hair_color: MyString
+  ears: 1

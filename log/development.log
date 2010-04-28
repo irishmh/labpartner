@@ -1,0 +1,126 @@
+
+
+Processing FacesController#index (for 127.0.0.1 at 2010-04-27 18:56:23) [GET]
+
+SyntaxError (C:/matc/ror/labpartner/app/models/face.rb:5: syntax error, unexpected tIDENTIFIER, expecting kEND
+     eye_color:string hair_color:string ears:integer
+                                ^):
+  app/controllers/faces_controller.rb:5:in `index'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacesController#index (for 127.0.0.1 at 2010-04-27 18:57:42) [GET]
+
+Errno::ETIMEDOUT (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)):
+  C:/Ruby/lib/ruby/1.8/net/http.rb:560:in `initialize'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:560:in `open'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:560:in `connect'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:93:in `timeout'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:560:in `connect'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:553:in `do_start'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:542:in `start'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:1035:in `request'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:772:in `get'
+  app/controllers/faces_controller.rb:5:in `index'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacesController#index (for 127.0.0.1 at 2010-04-27 18:58:03) [GET]
+
+Errno::ETIMEDOUT (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)):
+  C:/Ruby/lib/ruby/1.8/net/http.rb:560:in `initialize'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:560:in `open'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:560:in `connect'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:93:in `timeout'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:560:in `connect'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:553:in `do_start'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:542:in `start'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:1035:in `request'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:772:in `get'
+  app/controllers/faces_controller.rb:5:in `index'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.2ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FacesController#index (for 127.0.0.1 at 2010-04-27 19:01:57) [GET]
+Rendering template within layouts/faces
+Rendering faces/index
+Completed in 1279ms (View: 421, DB: 0) | 200 OK [http://localhost/faces]
+
+
+Processing FacesController#show (for 127.0.0.1 at 2010-04-27 19:02:01) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/faces
+Rendering faces/show
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/faces/1]
+
+
+Processing FacesController#index (for 127.0.0.1 at 2010-04-27 19:02:03) [GET]
+Rendering template within layouts/faces
+Rendering faces/index
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://localhost/faces]
+
+
+Processing FacesController#new (for 127.0.0.1 at 2010-04-27 19:02:07) [GET]
+Rendering template within layouts/faces
+Rendering faces/new
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/faces/new]
+
+
+Processing FacesController#create (for 127.0.0.1 at 2010-04-27 19:02:20) [POST]
+  Parameters: {"face"=>{"ears"=>"3", "eye_color"=>"Blue", "hair_color"=>"Green"}, "commit"=>"Create", "authenticity_token"=>"6z4B3h+m7uEl11mlCz9ieO2Usy+bdN9Jw+y8ECBkvL0="}
+Redirected to http://localhost:3000/faces/4
+Completed in 406ms (DB: 0) | 302 Found [http://localhost/faces]
+
+
+Processing FacesController#show (for 127.0.0.1 at 2010-04-27 19:02:20) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/faces
+Rendering faces/show
+Completed in 187ms (View: 0, DB: 0) | 200 OK [http://localhost/faces/4]
+
+
+Processing FacesController#index (for 127.0.0.1 at 2010-04-27 19:02:23) [GET]
+Rendering template within layouts/faces
+Rendering faces/index
+Completed in 140ms (View: 16, DB: 0) | 200 OK [http://localhost/faces]

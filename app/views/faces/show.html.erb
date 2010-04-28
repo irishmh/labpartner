@@ -1,0 +1,18 @@
+<p>
+  <b>Eye color:</b>
+  <%=h @face.eye_color %>
+</p>
+
+<p>
+  <b>Hair color:</b>
+  <%=h @face.hair_color %>
+</p>
+
+<p>
+  <b>Ears:</b>
+  <%=h @face.ears %>
+</p>
+
+
+<%= link_to 'Edit', edit_face_path(@face) %> |
+<%= link_to 'Back', faces_path %>

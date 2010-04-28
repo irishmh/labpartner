@@ -1,0 +1,23 @@
+<h1>New face</h1>
+
+<% form_for(@face) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :eye_color %><br />
+    <%= f.text_field :eye_color %>
+  </p>
+  <p>
+    <%= f.label :hair_color %><br />
+    <%= f.text_field :hair_color %>
+  </p>
+  <p>
+    <%= f.label :ears %><br />
+    <%= f.text_field :ears %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', faces_path %>
